@@ -64,7 +64,7 @@ import en from "javascript-time-ago/locale/en";
 TimeAgo.addDefaultLocale(en);
 
 import { createI18n } from "vue-i18n";
-import enLocale from "@/locales/en.json";
+import enLocale from "@/locales/zh_Hans.json";
 import "@unocss/reset/tailwind.css";
 import "uno.css";
 
