@@ -108,7 +108,7 @@ const mixin = {
         },
         addCommas(num) {
             num = parseInt(num);
-            return num.toLocaleString("en-US");
+            return num.toLocaleString("zh-CN");
         },
         fetchJson: function (url, params, options) {
             if (params) {
