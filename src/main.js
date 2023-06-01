@@ -68,7 +68,7 @@ import enLocale from "@/locales/en.json";
 import "@unocss/reset/tailwind.css";
 import "uno.css";
 
-const timeAgo = new TimeAgo("en-US");
+const timeAgo = new TimeAgo("zh-CN");
 
 import("./registerServiceWorker");
 
