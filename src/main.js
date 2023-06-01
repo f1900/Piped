@@ -315,7 +315,7 @@ const mixin = {
                     continue;
                 }
             }
-            return "en";
+            return "zh_Hans";
         },
     },
     data() {
