@@ -68,7 +68,7 @@ import enLocale from "@/locales/en.json";
 import "@unocss/reset/tailwind.css";
 import "uno.css";
 
-const timeAgo = new TimeAgo("zh-CN");
+const timeAgo = new TimeAgo("en-US");
 
 import("./registerServiceWorker");
 
@@ -108,7 +108,7 @@ const mixin = {
         },
         addCommas(num) {
             num = parseInt(num);
-            return num.toLocaleString("zh-CN");
+            return num.toLocaleString("en-US");
         },
         fetchJson: function (url, params, options) {
             if (params) {
