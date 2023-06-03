@@ -24,7 +24,7 @@ export default {
     },
     mounted() {
         if (this.$route.path == "/" && this.getPreferenceString("homepage", "trending") == "feed") return;
-        let region = this.getPreferenceString("region", "US");
+        let region = this.getPreferenceString("region", "TW");
 
         this.fetchTrending(region).then(videos => {
             this.videos = videos;
@@ -49,7 +49,7 @@ export default {
     methods: {
         async fetchTrending(region) {
             return await this.fetchJson(this.apiUrl() + "/trending", {
-                region: region || "US",
+                region: region || "TW",
             });
         },
     },
