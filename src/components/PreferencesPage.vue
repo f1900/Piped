@@ -380,7 +380,7 @@ export default {
             defaultQuality: 0,
             bufferingGoal: 10,
             countryMap: CountryMap,
-            countrySelected: "US",
+            countrySelected: "TW",
             defaultHomepage: "trending",
             minimizeComments: false,
             minimizeDescription: false,
